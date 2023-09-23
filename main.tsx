@@ -3,7 +3,7 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "HJX(黄嘉璇)",
+  title: "HJX",
   description: "This is my new blog.",
   // header: <header>Your custom header</header>,
   // section: (post: Post) => <section>Your custom section with access to Post props.</section>,
@@ -11,6 +11,11 @@ blog({
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   author: "An author",
+  links: [
+    { title: "Email", url: "mailto:1091408982@qq.com" },
+    { title: "GitHub", url: "https://github.com/hjxylgogogo" },
+    { title: "Twitter", url: "https://twitter.com/" },
+  ]
 
   // middlewares: [
 
